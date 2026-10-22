@@ -1,0 +1,97 @@
+{
+  "model": "RandomForestRegressor",
+  "target": "G3",
+  "target_scale": "0\u201320",
+  "dataset_rows": 395,
+  "train_rows": 316,
+  "test_rows": 79,
+  "features_used": [
+    "age",
+    "Medu",
+    "Fedu",
+    "traveltime",
+    "studytime",
+    "failures",
+    "famrel",
+    "freetime",
+    "goout",
+    "health",
+    "absences",
+    "school",
+    "sex",
+    "address",
+    "famsize",
+    "Pstatus",
+    "Mjob",
+    "Fjob",
+    "reason",
+    "guardian",
+    "schoolsup",
+    "famsup",
+    "paid",
+    "activities",
+    "nursery",
+    "higher",
+    "internet",
+    "romantic"
+  ],
+  "excluded_features": [
+    "G1",
+    "G2"
+  ],
+  "mae": 3.035,
+  "rmse": 3.766,
+  "r2": 0.308,
+  "random_state": 42,
+  "test_size": 0.2,
+  "feature_importance": [
+    {
+      "feature": "absences",
+      "importance": 0.20711
+    },
+    {
+      "feature": "failures",
+      "importance": 0.16093
+    },
+    {
+      "feature": "health",
+      "importance": 0.05244
+    },
+    {
+      "feature": "goout",
+      "importance": 0.04573
+    },
+    {
+      "feature": "age",
+      "importance": 0.03814
+    },
+    {
+      "feature": "studytime",
+      "importance": 0.0337
+    },
+    {
+      "feature": "Fedu",
+      "importance": 0.02949
+    },
+    {
+      "feature": "freetime",
+      "importance": 0.02945
+    },
+    {
+      "feature": "Medu",
+      "importance": 0.02742
+    },
+    {
+      "feature": "famrel",
+      "importance": 0.0262
+    },
+    {
+      "feature": "traveltime",
+      "importance": 0.02431
+    },
+    {
+      "feature": "Mjob_services",
+      "importance": 0.01754
+    }
+  ]
+}
